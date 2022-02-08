@@ -50,7 +50,7 @@ btnRoll.addEventListener('click', function () {
     const dice = Math.trunc(Math.random() * 5) + 1;
 
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `https://raw.githubusercontent.com/burjepaul/Pig-game/master/dice-${dice}.png`;
 
     if (dice !== 1) {
       currentScore += dice;
